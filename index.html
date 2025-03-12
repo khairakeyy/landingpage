@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuratKita - Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-200 py-4 px-6 flex justify-between items-center shadow-md">
+        <div class="text-xl font-bold">📄 SuratKita</div>
+        <button class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Log In</button>
+    </nav>    
+
+    <!-- Header -->
+    <header class="text-center mt-10">
+        <h1 class="text-3xl font-bold">Surat Kita</h1>
+        <div class="flex justify-center my-6">
+            <img src="/assets/letter.jpg" alt="Typewriter" class="w-48 h-48 object-cover rounded-lg shadow">
+        </div>
+        <p class="text-gray-600">Pengelolaan Surat Jadi Lebih Simpel dan Efektif</p>
+    </header>
+
+    <!-- Cards -->
+    <section class="max-w-4xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-gray-100 p-4 rounded-lg shadow text-center">
+            <p class="text-lg font-semibold">Surat Rekomendasi</p>
+            <button class="bg-black text-white px-4 py-2 mt-2 rounded hover:bg-gray-800" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSe-xXUOhnfsAJH8A4PYygbwUI5ERGU3QJD0RVEpm_sS-9gT6g/viewform?usp=header'">Apply</button>
+        </div>
+        <div class="bg-gray-100 p-4 rounded-lg shadow text-center">
+            <p class="text-lg font-semibold">Surat Izin Kegiatan</p>
+            <button class="bg-black text-white px-4 py-2 mt-2 rounded hover:bg-gray-800">Apply</button>
+        </div>
+        <div class="bg-gray-100 p-4 rounded-lg shadow text-center">
+            <p class="text-lg font-semibold">Surat Keaktifan Startup</p>
+            <button class="bg-black text-white px-4 py-2 mt-2 rounded hover:bg-gray-800">Apply</button>
+        </div>
+        <div class="bg-gray-100 p-4 rounded-lg shadow text-center">
+            <p class="text-lg font-semibold">Sertifikat</p>
+            <button class="bg-black text-white px-4 py-2 mt-2 rounded hover:bg-gray-800" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSeM9QQuI0AHZIjQDtk2FXW_mqsEP5Glp0UQEbscp-8I10ToxQ/viewform?usp=header'">Apply</button>
+        </div>
+    </section>
+   
+    <!-- FAQ Section -->
+    <section class="max-w-4xl mx-auto mt-10">
+        <h2 class="text-2xl font-bold text-center">FAQ</h2>
+        <div class="bg-gray-100 p-4 mt-4 rounded-lg shadow">
+            <details class="mb-2">
+                <summary class="cursor-pointer font-semibold">What is SuratKita?</summary>
+                <p class="mt-2 text-gray-700">SuratKita adalah platform untuk pengelolaan surat secara digital.</p>
+            </details>
+            <details class="mb-2">
+                <summary class="cursor-pointer font-semibold">Bagaimana cara apply surat?</summary>
+                <p class="mt-2 text-gray-700">Klik tombol "Apply" pada surat yang ingin kamu buat.</p>
+            </details>
+            <details>
+                <summary class="cursor-pointer font-semibold">Apakah layanan ini gratis?</summary>
+                <p class="mt-2 text-gray-700">Ya, layanan dasar bisa digunakan secara gratis.</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center py-4 mt-10">
+        <p>&copy; 2025 SuratKita. All rights reserved.</p>
+        <div class="flex justify-center space-x-4 mt-2">
+            <a href="#" class="hover:underline">Instagram</a>
+            <a href="#" class="hover:underline">Email</a>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #d1d5db; /* Gray-300 */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.btn-secondary {
+    background: #fff;
+    border: 1px solid #000;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Header */
+.header {
+    margin-top: 20px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header-img {
+    width: 250px;
+    border-radius: 10px;
+    margin: 15px auto;
+    display: block;
+}
+
+.header p {
+    color: #6b7280; /* Gray-600 */
+}
+
+/* Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 30px auto;
+    width: 80%;
+}
+
+.card {
+    background: #fb923c; /* Orange-400 */
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn {
+    background: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* FAQ */
+.faq {
+    width: 70%;
+    margin: 40px auto;
+}
+
+.faq h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.faq-item {
+    margin-top: 10px;
+}
+
+.faq-question {
+    width: 100%;
+    background: lightgray;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background: white;
+    border-top: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
